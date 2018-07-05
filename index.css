@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shrikhand', cursive;;
+    font-size: 11px;
+}
+
+.know {
+    z-index: 1;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
+.restart {
+    text-align: center;   
+    width: 320px;
+    padding: 5px;
+    color: green;
+    background-color: indianred;
+}
+
+ul {
+    background: green;
+    border: 1px solid lime;
+    overflow: auto;
+    padding: 0px;
+    margin: 0;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.open {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.open:hover {
+    background-color: blue;
+    color: grey;
+}
+
+.click {
+    text-align: left;
+    padding: 5px;
+    background-color: purple;
+    border: 1px darkgrey solid;
+    cursor: pointer;
+    width: 334px;
+    border-top: -30px;
+}
